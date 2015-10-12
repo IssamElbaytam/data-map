@@ -1,0 +1,24 @@
+{
+  "name": "data-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "style": "style.css",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/editdata/data-map.git"
+  },
+  "author": "sethvincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/editdata/data-map/issues"
+  },
+  "homepage": "https://github.com/editdata/data-map#readme",
+  "dependencies": {
+    "base-element": "^3.0.1",
+    "inherits": "^2.0.1",
+    "leaflet": "^0.7.5",
+    "mapbox.js": "^2.2.2"
+  }
+}
