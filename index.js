@@ -19,7 +19,7 @@ function DataMap (options) {
     self.map = L.mapbox.map(mapEl, tiles, options)
     self.geojson = L.mapbox.featureLayer().addTo(self.map)
     self.geojson.on('click', function (e) {
-      self.send('click:layer', e)
+      self.send('click', e, e.layer.feature, e.target)
     })
   })
 }
