@@ -17,8 +17,10 @@
   "homepage": "https://github.com/editdata/data-map#readme",
   "dependencies": {
     "base-element": "^3.0.1",
+    "component-emitter": "^1.2.0",
     "inherits": "^2.0.1",
     "leaflet": "^0.7.5",
-    "mapbox.js": "^2.2.2"
+    "mapbox.js": "^2.2.2",
+    "virtual-leaflet": "^1.0.0"
   }
 }
